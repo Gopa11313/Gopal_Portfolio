@@ -37,9 +37,6 @@ function NavigationComponent() {
             Gopal
           </Link>
         </ul>
-        
-
-
           <ul className="menu">
             <li>
               <Link to="/about">About</Link>
