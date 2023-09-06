@@ -4,29 +4,32 @@ import NavPopUp from "./NavPopUp";
 import MyCss from "../styles/MyCss.css";
 function NavigationComponent() {
   const [isOpen, setIsOpen] = useState(false);
-  const [showModal,setShowModal] = useState(false)
-  useEffect(() => {
-    const initialMenuVisibility = isHamburgerMenuVisible();
-    console.log("this is visibility: " + initialMenuVisibility);
-    if(initialMenuVisibility){
-        setIsOpen(false);
-    }
-    else{
-        setIsOpen(!isOpen);
-    }
-  },[]);
+  const [showModal, setShowModal] = useState(false);
+  // useEffect(() => {
+  //   const initialMenuVisibility = isHamburgerMenuVisible();
+  //   console.log("this is visibility: " + initialMenuVisibility);
+  //   if (initialMenuVisibility) {
+  //     setIsOpen(false);
+  //   } else {
+  //     setIsOpen(!isOpen);
+  //   }
+  // }, []);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    setShowModal()
-  
+    setShowModal(!showModal);
   };
+  const closeModal = () => {
+    console.log("close " + showModal);
+    setShowModal(!showModal);
+  };
+
   function isHamburgerMenuVisible() {
-    const hamburgerMenu = document.querySelector(".hamburgur"); 
+    const hamburgerMenu = document.querySelector(".hamburgur");
     if (hamburgerMenu) {
       const computedStyle = window.getComputedStyle(hamburgerMenu);
-      return computedStyle.getPropertyValue("display") !== "none"; 
+      return computedStyle.getPropertyValue("display") !== "none";
     }
-    return false; 
+    return false;
   }
 
   return (
@@ -37,19 +40,19 @@ function NavigationComponent() {
             Gopal
           </Link>
         </ul>
-          <ul className="menu">
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/project">My Project</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
+        <ul className="menu">
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/project">My Project</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
 
-        <ul className="hamburgur" onClick={toggleMenu}>
+        <ul className="hamburgur">
           <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,6 +61,7 @@ function NavigationComponent() {
               fill="#ffffff"
               class="bi bi-list"
               viewBox="0 0 16 16"
+              onClick={toggleMenu}
             >
               <path
                 fill-rule="evenodd"
@@ -67,6 +71,7 @@ function NavigationComponent() {
           </li>
         </ul>
       </div>
+      {!showModal && <NavPopUp data={true} onClose={closeModal} />}
     </nav>
   );
 }
