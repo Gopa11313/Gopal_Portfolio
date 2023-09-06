@@ -7,3 +7,66 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+nav {
+  background: #0082e6;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 90%;
+}
+nav .navbar ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+nav .navbar ul li {
+  list-style: none;
+  display: flex;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+.navbar .hamburgur {
+  display: none;
+}
+.logo {
+  font-size: small;
+  font-weight: bold;
+}
+
+@media (max-width: 952px) {
+}
+@media (max-width: 858px) {
+}
+@media screen and (max-width: 768px) {
+  nav .navbar ul .menu {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .navbar .hamburgur {
+    display: block;
+  }
+
+  nav {
+    background: #0082e6;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar .menu {
+    display: none;
+  }
+}
