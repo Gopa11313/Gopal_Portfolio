@@ -4,16 +4,7 @@ import NavPopUp from "./NavPopUp";
 import MyCss from "../styles/MyCss.css";
 function NavigationComponent() {
   const [isOpen, setIsOpen] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-  // useEffect(() => {
-  //   const initialMenuVisibility = isHamburgerMenuVisible();
-  //   console.log("this is visibility: " + initialMenuVisibility);
-  //   if (initialMenuVisibility) {
-  //     setIsOpen(false);
-  //   } else {
-  //     setIsOpen(!isOpen);
-  //   }
-  // }, []);
+  const [showModal, setShowModal] = useState(true);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
     setShowModal(!showModal);
