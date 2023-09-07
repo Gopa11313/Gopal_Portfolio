@@ -14,14 +14,6 @@ function NavigationComponent() {
     setShowModal(!showModal);
   };
 
-  function isHamburgerMenuVisible() {
-    const hamburgerMenu = document.querySelector(".hamburgur");
-    if (hamburgerMenu) {
-      const computedStyle = window.getComputedStyle(hamburgerMenu);
-      return computedStyle.getPropertyValue("display") !== "none";
-    }
-    return false;
-  }
 
   return (
     <nav>

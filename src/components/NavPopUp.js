@@ -6,14 +6,11 @@ function NavPopUp({ data, onClose }) {
   useEffect(() => {
     setShowModal(data);
   }, []);
-  const toggleModal = () => {
-    setShowModal(!showModal);
-  };
-
+ 
   return (
     <div>
       {showModal && (
-        <div className="modal" onClick={toggleModal}>
+        <div className="modal">
           <div className="modal-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
