@@ -1,0 +1,46 @@
+.homePage{
+    background-image: url('../assests/homepage.jpg');
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    background: linear-gradient(to right, #3F40A6, #4c8bf5, #00b8f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #AD9BFF;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 500;
+}
+.name{
+    font-family: 'Poppins';
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0px;
+}
+.description{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+span{
+    background: linear-gradient(to right, #3F40A6, #4c8bf5, #00b8f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #AD9BFF;
+}
+.listOfTech{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+}
+.listOfTech img{
+    margin: 20px;
+}

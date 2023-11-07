@@ -14,24 +14,21 @@ function NavigationComponent() {
     setShowModal(!showModal);
   };
 
-
   return (
     <nav>
       <div className="navbar">
         <ul>
-          <Link to="/" className="logo">
-            Gopal
-          </Link>
+          <a className="nameLogo">Gopal</a>
         </ul>
         <ul className="menu">
           <li>
-            <Link to="/about">About</Link>
+            <a to="/about">About</a>
           </li>
           <li>
-            <Link to="/project">My Project</Link>
+            <a to="/project">My Project</a>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <a to="/contact">Contact</a>
           </li>
         </ul>
 

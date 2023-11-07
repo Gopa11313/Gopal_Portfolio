@@ -1,0 +1,13 @@
+.skillPage{
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skillTitle{
+    color: #17377D;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
