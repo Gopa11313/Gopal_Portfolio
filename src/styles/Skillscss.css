@@ -55,3 +55,33 @@
     border: none;
     color: #565656;
 }
+.scrolling-wrapper-flexbox {
+    display: flex;
+  }
+  
+  .card {
+    flex: 0 0 auto; /* will allow items to scroll */
+    width: 200px; /* sample width for each item; change as needed */
+     /* space between items; change as needed */
+    border: 1px solid #ABC5FF;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+.contentPanel{
+    white-space: nowrap;
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    overflow-x: auto;
+}
+.cardName{
+    color: #363636;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 10px;
+}
