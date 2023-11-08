@@ -6,7 +6,7 @@ function NavPopUp({ data, onClose }) {
   useEffect(() => {
     setShowModal(data);
   }, []);
- 
+
   return (
     <div>
       {showModal && (
@@ -27,19 +27,19 @@ function NavPopUp({ data, onClose }) {
           <div className="modal-content">
             <ul>
               <li>
-                <Link to="/about" onClick={onClose}>
+                <a to="/about" onClick={onClose}>
                   About
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/project" onClick={onClose}>
+                <a to="/project" onClick={onClose}>
                   My Project
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/contact" onClick={onClose}>
+                <a to="/contact" onClick={onClose}>
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

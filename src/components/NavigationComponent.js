@@ -25,6 +25,9 @@ function NavigationComponent() {
             <a to="/about">About</a>
           </li>
           <li>
+            <a to="/skill">Skill</a>
+          </li>
+          <li>
             <a to="/project">My Project</a>
           </li>
           <li>
@@ -38,7 +41,7 @@ function NavigationComponent() {
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
-              fill="#ffffff"
+              fill="#17377D"
               class="bi bi-list"
               viewBox="0 0 16 16"
               onClick={toggleMenu}

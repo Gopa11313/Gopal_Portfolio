@@ -11,3 +11,47 @@
     font-family: 'Poppins';
     font-weight: 600;
 }
+.SkillContent{
+    width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Mui-selected{
+    color:"black"
+}
+.span-active{
+    margin-top: 5px;
+    height: 2px;
+    background:    #324F8E;
+
+}
+.span-inActive{
+    margin-top: 5px;
+    height: 2px;
+}
+.tabs{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+.tabItem{
+    display: flex;
+    flex-direction: column;
+}
+.active{
+    color: #324F8E;
+    font-family: 'Poppins';
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+.inActive{
+    font-family: 'Poppins';
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #565656;
+}
