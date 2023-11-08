@@ -8,6 +8,7 @@ align-items: center;
 .exprienceContent{
     width: 80%;
     display: flex;
+    margin-top: 10px;
     justify-content: center;
 align-items: center;
 }

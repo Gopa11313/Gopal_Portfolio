@@ -1,7 +1,9 @@
 import React from "react";
 function ProjectPage() {
-    return(
-        <h1>Gopal HEre</h1>
-    )
+  return (
+    <div className="projects">
+      <div className="projectsContent"></div>
+    </div>
+  );
 }
-export default ProjectPage
+export default ProjectPage;

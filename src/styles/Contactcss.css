@@ -1,0 +1,70 @@
+.contact{
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center
+}
+.contactTitle{
+ 
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: bold;
+}
+.contactContent{
+    width: 80%;
+    border: 2px solid #F7F8FF ;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.insideContent{
+flex: 1;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insideContent.first{
+    background-color: #F7F8FF;
+    border-radius: 20px;
+    padding: 20px;
+}
+.contentTitle{
+    color: black;
+    font-size: 20px;
+    font-family: "Poppins";
+    display: block;
+}
+.contentDescription{
+    color: black;
+    font-size: 16px;
+    font-family: "Poppins";
+    display: block;
+}
+.infomation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.infomation > .text{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.logos > img{
+    margin: 10px;
+}
