@@ -1,40 +1,40 @@
-.exprience{
-    width: 100%;
-    height: auto;
-display: flex;
-justify-content: center;
-align-items: center;
+.exprience {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.exprienceContent{
-    width: 80%;
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-align-items: center;
+.exprienceContent {
+  width: 80%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .hdOTXE.hdOTXE {
-    color: #393939;
-font-family: 'Poppins';
-font-size: 17px;
+  color: #393939;
+  font-family: "Poppins";
+  font-size: 17px;
 }
-.jlcKpA.jlcKpA{
-    background: linear-gradient(to right, #3F40A6, #4c8bf5, #00b8f0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Poppins';
-    font-size: 14px;
+.jlcKpA.jlcKpA {
+  background: linear-gradient(to right, #3f40a6, #4c8bf5, #00b8f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins";
+  font-size: 14px;
 }
 
 .fhstIq.active.fhstIq.active {
-    background: #526B9E;
-    color: white;
+  background: #526b9e;
+  color: white;
 }
 
 .bOPcbp:not(.using-icon).active.bOPcbp:not(.using-icon).active {
-    background: white;
-    border: 3px solid #526B9E;
+  background: white;
+  border: 3px solid #526b9e;
 }
-.bGOvhX.bGOvhX{
-    font-family: "Poppins";
-    font-size: 14px;
+.bGOvhX.bGOvhX {
+  font-family: "Poppins";
+  font-size: 14px;
 }

@@ -12,15 +12,16 @@ export default function Exprience() {
     },
     {
       title: "Dec 2020-Dec 2022",
-      cardTitle: "Que Pay Ptv. Ltd, Kathmandu",
       cardTitle: "Senior Android Developer",
+      cardSubtitle: "Que Pay Ptv. Ltd, Kathmandu",
       cardDetailedText:
         "At Que Pay, I played a pivotal role in developing a mobile wallet app that facilitated online payments with merchants, bank fund transfers, and a range of features. My responsibilities included integrating debit, credit, and prepaid cards, QR code-based payments, bill payment systems, chat functionalities, and push notifications using a tech stack comprising Java and Kotlin, along with MVP architecture, Room, Okhttp3, Retrofit, Dragger Hilt, Fabric, Firebase, QR scanner, Google Maps, REST API, jUnit, and Mockito. Notably, I spearheaded the creation of mobile wallets, POS systems, and mobile banking applications, collectively amassing over a million users, marking significant achievements during my tenure at the company.",
     },
     {
       title: "April 2020-Nov 2020",
-      cardTitle: "Login Design Ptv. Ltd, Kathmandu",
       cardTitle: "Full-Stack Developer",
+      cardSubtitle: "Login Design Ptv. Ltd, Kathmandu",
+
       cardDetailedText:
         "At Login Design, my role entailed designing both client-side and server-side architectures, contributing to the development of highly interactive websites and mobile applications. I was instrumental in creating APIs using Node.js with MongoDB and overseeing the publishing of websites, APIs, and applications. My responsibilities included shaping robust architecture, fostering interactivity, and deploying these platforms, showcasing a comprehensive skill set in web and mobile app development along with proficiency in Node.js and MongoDB for API creation",
     },
