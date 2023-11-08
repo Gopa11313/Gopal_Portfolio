@@ -6,11 +6,11 @@ import JavaImage from "../../../assests/java_image.png";
 import PythonImage from "../../../assests/python_image.png";
 import SwiftImage from "../../../assests/swift_image.png";
 export default function SkillsPage() {
-  const [value, setValue] = React.useState("1");
+  const [value, setValue] = useState("");
 
   const [selectedTab, setSelectedTab] = useTabs([
     "Language",
-    "Frameworks",
+    "Frameworks/Architecture",
     "IDE",
     "Database",
   ]);
@@ -26,8 +26,22 @@ export default function SkillsPage() {
     { name: "Python", image: PythonImage },
     { name: "Python", image: PythonImage },
   ];
+  const frameWorks = [{ name: "jabdas", image: KotlinImage }];
+  const defaultDisplayCount = 4;
+  const [displayCount, setDisplayCount] = useState(defaultDisplayCount); // Initial number of displayed items
 
-  const handleChange = (event, newValue) => {
+  const handleToggleDisplay = () => {
+    if (displayCount === defaultDisplayCount) {
+      if (selectedTab === "Language") {
+        setDisplayCount(languages.length); // Show all items
+      } else if (selectedTab === "Frameworks/Architecture") {
+        setDisplayCount(frameWorks.length);
+      }
+    } else {
+      setDisplayCount(defaultDisplayCount); // Reset to default number of items
+    }
+  };
+  const handleChange = (newValue) => {
     setValue(newValue);
   };
   const TabSelector = ({ isActive, children, onClick }) => (
@@ -48,15 +62,18 @@ export default function SkillsPage() {
         <div className="tabs">
           <TabSelector
             isActive={selectedTab === "Language"}
-            onClick={() => setSelectedTab("Language")}
+            onClick={() => {
+              setSelectedTab("Language");
+              handleChange("Language");
+            }}
           >
             Language
           </TabSelector>
           <TabSelector
-            isActive={selectedTab === "Frameworks"}
-            onClick={() => setSelectedTab("Frameworks")}
+            isActive={selectedTab === "Frameworks/Architecture"}
+            onClick={() => setSelectedTab("Frameworks/Architecture")}
           >
-            Frameworks
+            Frameworks/Architecture
           </TabSelector>
           <TabSelector
             isActive={selectedTab === "IDE"}
@@ -73,19 +90,63 @@ export default function SkillsPage() {
         </div>
       </div>
       <div className="contentPanel">
-        <TabPanel hidden={selectedTab !== "Language"}>
-          <div className="scrolling-wrapper-flexbox">
-            {languages.map((language, index) => (
-              <div key={language} className="card">
-                <img src={language.image} alt={language.name} />
-                <p className="cardName">{language.name}</p>
+        <TabPanel hidden={selectedTab !== "Language"} className="panel">
+          {selectedTab === "Language" ? (
+            <div className="panelItem">
+              <div className="grid-container">
+                {languages.slice(0, displayCount).map((language, index) => (
+                  <div key={index} className="grid-item">
+                    <img src={language.image} alt={language.name} />
+                    <p>{language.name}</p>
+                  </div>
+                ))}
               </div>
-            ))}
+              <a
+                onClick={handleToggleDisplay}
+                className="toggle-display-button"
+              >
+                {displayCount === defaultDisplayCount
+                  ? "View More"
+                  : "Show Less"}
+              </a>
+            </div>
+          ) : null}
+        </TabPanel>
+        <TabPanel
+          hidden={selectedTab !== "Frameworks/Architecture"}
+          className="panel"
+        >
+          {selectedTab === "Frameworks/Architecture" ? (
+            <div className="panelItem">
+              <div className="grid-container">
+                {frameWorks.slice(0, displayCount).map((frameWork, index) => (
+                  <div key={index} className="grid-item">
+                    <img src={frameWork.image} alt={frameWork.name} />
+                    <p>{frameWork.name}</p>
+                  </div>
+                ))}
+              </div>
+              <a
+                onClick={handleToggleDisplay}
+                className="toggle-display-button"
+              >
+                {displayCount === defaultDisplayCount
+                  ? "View More"
+                  : "Show Less"}
+              </a>
+            </div>
+          ) : null}
+        </TabPanel>
+        <TabPanel hidden={selectedTab !== "IDE"}>
+          <div>
+            <a>IDE</a>
           </div>
         </TabPanel>
-        <TabPanel hidden={selectedTab !== "Frameworks"}>Frameworks</TabPanel>
-        <TabPanel hidden={selectedTab !== "IDE"}>IDE</TabPanel>
-        <TabPanel hidden={selectedTab !== "Database"}>Billing</TabPanel>
+        <TabPanel hidden={selectedTab !== "Database"}>
+          <div>
+            <a>Database</a>
+          </div>
+        </TabPanel>
       </div>
     </div>
   );

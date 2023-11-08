@@ -6,6 +6,7 @@ import AboutPage from "./pages/dashboard/about/AboutPage";
 import ContactPage from "./pages/dashboard/contact/ContactPage";
 import SplashPage from "./pages/splash/SplashPage";
 import LineComponent from "./components/LineComponent";
+import Exprience from "./pages/dashboard/exprience/Exprience";
 import SkillsPage from "./pages/dashboard/skill/SkillsPage";
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -32,6 +33,8 @@ function App() {
           <AboutPage />
           <LineComponent />
           <SkillsPage />
+          <LineComponent />
+          <Exprience />
           <LineComponent />
           <ProjectPage />
           <LineComponent />
