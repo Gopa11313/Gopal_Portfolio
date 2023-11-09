@@ -29,6 +29,7 @@ export default function Exprience() {
   return (
     <div className="exprience">
       <div className="exprienceContent">
+        <p className="exprienceTitle">Experience</p>
         <Chrono items={mappedEvents} mode="VERTICAL_ALTERNATING"></Chrono>
       </div>
     </div>

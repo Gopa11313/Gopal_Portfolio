@@ -1,12 +1,120 @@
-.projects{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center
+.projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.projectsContent{
-    width: 80%;
+.projectsContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+.projectsTitle {
+  color: black;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 22px;
+}
+.gridParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.project-grid-container {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Updated to 1fr to fill the space equally */
+  justify-items: center; /* Horizontally center the items within the grid cell */
+}
+
+.project-grid-item {
+  border: 2px solid #abc5ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+
+  overflow: hidden;
+  width: 100%;
+}
+.iconDiv {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edeeff;
+}
+.descriptionDiv {
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+  padding-left: 10px;
+}
+.postName {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a68a8;
+}
+.postDescription{
+color: #464646;
+font-family: "Poppins";
+font-size: 14px;
+text-align: left;
+}
+.toolDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.toolsTechnologies{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.toolItem{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.itemText{
+    color: #4A68A8;
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.itemFooter{
+    display: flex;
+    flex-direction: row;
+    width: 100%;  
+    justify-content: space-between;
+}
+.toggle-display-button {
+  color: #4a67a9;
+  align-self: flex-end;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  text-decoration: underline;
 }
