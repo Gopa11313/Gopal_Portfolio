@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a218b01b.css",
+    "main.js": "/static/js/main.ad22bb8d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/splash.jpg": "/static/media/splash.f6c575bd850683b8903a.jpg",
+    "static/media/homepage.jpg": "/static/media/homepage.6d46097b85240ad75f28.jpg",
+    "static/media/qpay_logo.png": "/static/media/qpay_logo.6a7d46a1974d6ceabf47.png",
+    "index.html": "/index.html",
+    "main.a218b01b.css.map": "/static/css/main.a218b01b.css.map",
+    "main.ad22bb8d.js.map": "/static/js/main.ad22bb8d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a218b01b.css",
+    "static/js/main.ad22bb8d.js"
+  ]
+}
