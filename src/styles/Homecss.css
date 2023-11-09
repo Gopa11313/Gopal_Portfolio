@@ -29,7 +29,7 @@
     font-size: 16px;
     font-family: 'Poppins';
 }
-span{
+.highlight{
     background: linear-gradient(to right, #3F40A6, #4c8bf5, #00b8f0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

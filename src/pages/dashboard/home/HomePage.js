@@ -6,10 +6,10 @@ import swiftIcon from "../../../assests/swift_icon.png";
 function HomePage() {
   return (
     <div className="homePage">
-      <p className="title">Android Developer</p>
+      <p className="title">Android Developer | Full Stack Developer</p>
       <p className="name">Gopal Thapa M.</p>
       <p className="description">
-        <span>TECHNOLOGIES</span> I HAVE BEEN WORKING WITH
+        <span className="highlight">TECHNOLOGIES</span> I HAVE BEEN WORKING WITH
       </p>
       <div className="listOfTech">
         <img src={koltinIcon} alt="kotlin" />

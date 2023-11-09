@@ -27,16 +27,32 @@ function ContactPage() {
           <dib className="logos">
             <img src={linkedin} alt="linkdin" />
             <img src={github} alt="github" />
-            <img src={linkedin} alt="linkdin" />
           </dib>
-          <div>
-            <p>Copyright@2023 portfolio.</p>
-            <span></span>
-            <p>All rights reserved.</p>
+          <div className="contactFooter">
+            <p className="footerText">Copyright@2023 portfolio.</p>
+            <div className="verticalBar"></div>
+            <p className="footerText">All rights reserved.</p>
           </div>
         </div>
         <div className="insideContent">
-          <p> Interested in working with me?</p>
+          <p className="secondTitle"> Interested in working with me?</p>
+          <div className="form">
+            <div className="firstRow">
+              <div className="formField" style={{ marginRight: "10px" }}>
+                <label>Name</label>
+                <input placeholder="Name" />
+              </div>
+              <div className="formField" style={{ marginLeft: "10px" }}>
+                <label>Email</label>
+                <input placeholder="email" />
+              </div>
+            </div>
+            <div className="secondRow">
+              <label>Message</label>
+              <input placeholder="Message" />
+            </div>
+            <button className="getInTouchBtn">Get In Touch</button>
+          </div>
         </div>
       </div>
     </div>

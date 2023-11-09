@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     align-items: center
 }
 .contactTitle{
@@ -28,6 +28,8 @@ display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+
 }
 .insideContent.first{
     background-color: #F7F8FF;
@@ -38,10 +40,11 @@ display: flex;
     color: black;
     font-size: 20px;
     font-family: "Poppins";
+    font-weight: 600;
     display: block;
 }
 .contentDescription{
-    color: black;
+    color: #484848;
     font-size: 16px;
     font-family: "Poppins";
     display: block;
@@ -50,12 +53,15 @@ display: flex;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 40px;
 }
 .infomation > .text{
     display: flex;
     justify-content: flex-start;
     color: black;
     font-family: "Poppins";
+    align-items: center;
+   
     font-size: 14px;
     font-weight: 500;
 }
@@ -63,8 +69,86 @@ display: flex;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .logos > img{
+    margin: 20px;
+}
+.contactFooter{
+    display: flex;
+    flex-direction: row;
     margin: 10px;
+    
+}
+ .verticalBar{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4A68A8;
+
+}
+.footerText{
+    color: #656565;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+.secondTitle{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    color: #4B66A0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.formField{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+
+}
+.secondRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+ 
+}
+label{
+    color: #4A68A8;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+}
+input{
+    border: 1px solid #C9DAFF;
+    color: black;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.getInTouchBtn{
+    background-color: #4a68a8;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    align-self:normal;
+    font-family: 'Poppins';
+    padding: 10px 15px 10px 15px;
+    box-shadow: 5px 5px 7px rgba(47, 62, 92, 0.2);
 }
