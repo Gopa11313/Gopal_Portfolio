@@ -4,6 +4,8 @@ import qpay_logo from "../../../assests/qpay_logo.png";
 import kotlin_icon from "../../../assests/kotlin_icon.png";
 import java_icon from "../../../assests/java_icon.png";
 import swift_icon from "../../../assests/swift_icon.png";
+import github from "../../../assests/github.png";
+import link from "../../../assests/link.png";
 function ProjectPage() {
   const featuredProject = [
     {
@@ -84,11 +86,16 @@ function ProjectPage() {
                       ))}
                     </div>
                     <div className="itemFooter">
-                      <div>
-                        <p>View code</p>
+                      <div className="itemFooterItem">
+                        <img src={github} />
+                        <p className="itemFooterItem">View code</p>
                       </div>
-                      <div>
-                        <p>Live Preview</p>
+                      <div
+                        className="itemFooterItem"
+                        style={{ marginRight: "10px" }}
+                      >
+                        <img src={link} />
+                        <p className="itemFooterItem">Live Preview</p>
                       </div>
                     </div>
                   </div>

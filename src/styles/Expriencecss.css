@@ -18,12 +18,12 @@
   font-size: 22px;
   font-weight: bold;
 }
-.hdOTXE.hdOTXE {
+.hdOTXE.hdOTXE,.kxYSKo.kxYSKo {
   color: #393939;
   font-family: "Poppins";
   font-size: 17px;
 }
-.jlcKpA.jlcKpA {
+.jlcKpA.jlcKpA , .lfpLDj.lfpLDj{
   background: linear-gradient(to right, #3f40a6, #4c8bf5, #00b8f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,11 +36,11 @@
   color: white;
 }
 
-.bOPcbp:not(.using-icon).active.bOPcbp:not(.using-icon).active {
+.bOPcbp:not(.using-icon).active.bOPcbp:not(.using-icon).active, .gyKnXL:not(.using-icon).active {
   background: white;
   border: 3px solid #526b9e;
 }
-.bGOvhX.bGOvhX {
+.bGOvhX.bGOvhX,.iSpLnb.iSpLnb {
   font-family: "Poppins";
   font-size: 14px;
 }

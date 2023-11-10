@@ -108,7 +108,22 @@ text-align: left;
     display: flex;
     flex-direction: row;
     width: 100%;  
+    margin-top: 10px;
+    margin-bottom: 10px;
     justify-content: space-between;
+}
+.itemFooterItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+.itemFooterItem{
+  color: black;
+  font-size: 12px;
+  font-family: "Poppins";
+  
 }
 .toggle-display-button {
   color: #4a67a9;
