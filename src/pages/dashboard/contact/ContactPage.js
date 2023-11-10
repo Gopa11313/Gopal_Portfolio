@@ -25,8 +25,12 @@ function ContactPage() {
             </p>
           </div>
           <dib className="logos">
-            <img src={linkedin} alt="linkdin" />
-            <img src={github} alt="github" />
+            <a href="https://github.com/Gopa11313">
+              <img src={linkedin} alt="linkdin" />
+            </a>
+            <a href="https://www.linkedin.com/in/gopal-thapa-m-0235791a1/">
+              <img src={github} alt="github" />
+            </a>
           </dib>
           <div className="contactFooter">
             <p className="footerText">Copyright@2023 GopalPortfolio.</p>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c4a372b.css",
-    "main.js": "/static/js/main.d2ae6adf.js",
+    "main.css": "/static/css/main.35576273.css",
+    "main.js": "/static/js/main.542eaf4d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/andorid_icon.png": "/static/media/andorid_icon.08c4808ad5e94406a83a.png",
     "static/media/splash.jpg": "/static/media/splash.f6c575bd850683b8903a.jpg",
@@ -15,12 +15,12 @@
     "static/media/x_code_icon.png": "/static/media/x_code_icon.5160493f27f2e6d63c78.png",
     "static/media/qpay_logo.png": "/static/media/qpay_logo.6a7d46a1974d6ceabf47.png",
     "index.html": "/index.html",
-    "main.5c4a372b.css.map": "/static/css/main.5c4a372b.css.map",
-    "main.d2ae6adf.js.map": "/static/js/main.d2ae6adf.js.map",
+    "main.35576273.css.map": "/static/css/main.35576273.css.map",
+    "main.542eaf4d.js.map": "/static/js/main.542eaf4d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c4a372b.css",
-    "static/js/main.d2ae6adf.js"
+    "static/css/main.35576273.css",
+    "static/js/main.542eaf4d.js"
   ]
 }
