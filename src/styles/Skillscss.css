@@ -108,8 +108,58 @@
 }
 
 @media (max-width: 952px) {
+    .aboutTitle {
+        font-size: 16px;
+      }
+      .tabItem > button {
+        font-size: 10px;
+      }
+      .grid-container {
+        column-gap: 10px;
+        row-gap: 5px;
+      }
+    
+      .grid-item {
+        width: 100px;
+        height: 80px;
+      }
+      .grid-item img {
+        height: 15px;
+        width: 15px;
+      }
+      .grid-item p {
+        font-size: 10px;
+      }
+      .toggle-display-button {
+        font-size: 12px;
+      }
 }
 @media (max-width: 858px) {
+    .aboutTitle {
+        font-size: 16px;
+      }
+      .tabItem > button {
+        font-size: 10px;
+      }
+      .grid-container {
+        column-gap: 10px;
+        row-gap: 5px;
+      }
+    
+      .grid-item {
+        width: 40px;
+        height: 35px;
+      }
+      .grid-item img {
+        height: 15px;
+        width: 15px;
+      }
+      .grid-item p {
+        font-size: 10px;
+      }
+      .toggle-display-button {
+        font-size: 12px;
+      }
 }
 @media screen and (max-width: 768px) {
   .skillTitle {

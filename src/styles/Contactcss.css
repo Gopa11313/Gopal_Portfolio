@@ -1,153 +1,376 @@
-.contact{
-    width: 100%;
-    margin-top: 15px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 40px;
-    align-items: center
+.contact {
+  width: 100%;
+  margin-top: 15px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  align-items: center;
 }
-.contactTitle{
-    font-family: "Poppins";
-    font-size: 22px;
-    font-weight: bold;
+.contactTitle {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: bold;
 }
-.contactContent{
-    width: 80%;
-    border: 2px solid #F7F8FF ;
-    border-radius: 20px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
+.contactContent {
+  width: 80%;
+  border: 2px solid #f7f8ff;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
 }
-.insideContent{
-flex: 1;
-display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+.insideContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.insideContent.first {
+  background-color: #f7f8ff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.contentTitle {
+  color: black;
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  display: block;
+}
+.contentDescription {
+  color: #484848;
+  font-size: 16px;
+  font-family: "Poppins";
+  display: block;
+}
+.infomation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.infomation > .text {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  font-family: "Poppins";
+  align-items: center;
 
+  font-size: 14px;
+  font-weight: 500;
 }
-.insideContent.first{
-    background-color: #F7F8FF;
-    border-radius: 20px;
-    padding: 20px;
+.logos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
 }
-.contentTitle{
-    color: black;
-    font-size: 20px;
-    font-family: "Poppins";
-    font-weight: 600;
+.logos > img {
+  margin: 20px;
+}
+.contactFooter {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.verticalBar {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #4a68a8;
+}
+.footerText {
+  color: #656565;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+.secondTitle {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  color: #4b66a0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+.firstRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+}
+.formField {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.secondRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  flex: 1;
+}
+label {
+  color: #4a68a8;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+input {
+  border: 1px solid #c9daff;
+  color: black;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.getInTouchBtn {
+  background-color: #4a68a8;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  align-self: normal;
+  font-family: "Poppins";
+  padding: 10px 15px 10px 15px;
+  box-shadow: 5px 5px 7px rgba(47, 62, 92, 0.2);
+}
+.formFieldSecond {
+  margin-left: 10px;
+}
+@media (max-width: 952px) {
+    .contactContent {
+        display: block;
+      }
+      .contactTitle {
+        font-size: 16px;
+      }
+      .contentTitle {
+        font-size: 12px;
+      }
+      .contentDescription {
+        font-size: 11px;
+      }
+      .infomation {
+        margin-top: 5px;
+      }
+      .infomation > .text {
+        margin-top: 9px;
+      }
+      .logos {
+        margin-top: 5px;
+      }
+      .logos > img {
+        width: 15px;
+      }
+      .footerText {
+        font-size: 10px;
+        text-align: center;
+      }
+      .verticalBar {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .secondTitle {
+        font-size: 12px;
+      }
+      .firstRow {
+        display: block;
+      }
+      label {
+        font-size: 10px;
+      }
+      input {
+        height: 40px;
+      }
+      .formFieldSecond {
+        margin-left: 0px;
+      }
+      .getInTouchBtn {
+        font-size: 10px;
+        margin-top: 10px;
+      }
+}
+@media (max-width: 858px) {
+    .contactContent {
+        display: block;
+      }
+      .contactTitle {
+        font-size: 16px;
+      }
+      .contentTitle {
+        font-size: 12px;
+      }
+      .contentDescription {
+        font-size: 11px;
+      }
+      .infomation {
+        margin-top: 5px;
+      }
+      .infomation > .text {
+        margin-top: 9px;
+      }
+      .logos {
+        margin-top: 5px;
+      }
+      .logos > img {
+        width: 15px;
+      }
+      .footerText {
+        font-size: 10px;
+        text-align: center;
+      }
+      .verticalBar {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 2px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .secondTitle {
+        font-size: 12px;
+      }
+      .firstRow {
+        display: block;
+      }
+      label {
+        font-size: 10px;
+      }
+      input {
+        height: 40px;
+      }
+      .formFieldSecond {
+        margin-left: 0px;
+      }
+      .getInTouchBtn {
+        font-size: 10px;
+        margin-top: 10px;
+      }
+}
+@media screen and (max-width: 768px) {
+  .contactContent {
     display: block;
-}
-.contentDescription{
-    color: #484848;
+  }
+  .contactTitle {
     font-size: 16px;
-    font-family: "Poppins";
-    display: block;
-}
-.infomation{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 40px;
-}
-.infomation > .text{
-    display: flex;
-    justify-content: flex-start;
-    color: black;
-    font-family: "Poppins";
-    align-items: center;
-   
-    font-size: 14px;
-    font-weight: 500;
-}
-.logos{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 40px;
-}
-.logos > img{
-    margin: 20px;
-}
-.contactFooter{
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    
-}
- .verticalBar{
-
-    margin-left: 10px;
-    margin-right: 10px;
+  }
+  .contentTitle {
+    font-size: 12px;
+  }
+  .contentDescription {
+    font-size: 11px;
+  }
+  .infomation {
+    margin-top: 5px;
+  }
+  .infomation > .text {
+    margin-top: 9px;
+  }
+  .logos {
+    margin-top: 5px;
+  }
+  .logos > img {
+    width: 15px;
+  }
+  .footerText {
+    font-size: 10px;
+    text-align: center;
+  }
+  .verticalBar {
+    margin-left: 5px;
+    margin-right: 5px;
     width: 2px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #4A68A8;
-
-}
-.footerText{
-    color: #656565;
-    font-family: "Poppins";
+  }
+  .secondTitle {
     font-size: 12px;
+  }
+  .firstRow {
+    display: block;
+  }
+  label {
+    font-size: 10px;
+  }
+  input {
+    height: 40px;
+  }
+  .formFieldSecond {
+    margin-left: 0px;
+  }
+  .getInTouchBtn {
+    font-size: 10px;
+    margin-top: 10px;
+  }
 }
-.secondTitle{
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 500;
-    color: #4B66A0;
-}
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 80%;
-    height: 100%;
-}
-.firstRow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-.formField{
-    display: flex;
-    flex-direction: column;
-    flex: 1
-
-}
-.secondRow{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
- 
-}
-label{
-    color: #4A68A8;
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 14px;
-}
-input{
-    border: 1px solid #C9DAFF;
-    color: black;
-    height: 50px;
-    border-radius: 5px;
-    padding-left: 10px;
-}
-.getInTouchBtn{
-    background-color: #4a68a8;
-    border-radius: 20px;
-    border: none;
-    color: white;
+@media (max-width: 480px) {
+  .contactContent {
+    display: block;
+  }
+  .contactTitle {
     font-size: 16px;
-    align-self:normal;
-    font-family: 'Poppins';
-    padding: 10px 15px 10px 15px;
-    box-shadow: 5px 5px 7px rgba(47, 62, 92, 0.2);
+  }
+  .contentTitle {
+    font-size: 12px;
+  }
+  .contentDescription {
+    font-size: 11px;
+  }
+  .infomation {
+    margin-top: 5px;
+  }
+  .infomation > .text {
+    margin-top: 9px;
+  }
+  .logos {
+    margin-top: 5px;
+  }
+  .logos > img {
+    width: 15px;
+  }
+  .footerText {
+    font-size: 10px;
+    text-align: center;
+  }
+  .verticalBar {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .secondTitle {
+    font-size: 12px;
+  }
+  .firstRow {
+    display: block;
+  }
+  label {
+    font-size: 10px;
+  }
+  input {
+    height: 40px;
+  }
+  .formFieldSecond {
+    margin-left: 0px;
+  }
+  .getInTouchBtn {
+    font-size: 10px;
+    margin-top: 10px;
+  }
 }

@@ -142,3 +142,222 @@
   font-size: 16px;
   text-decoration: underline;
 }
+@media (max-width: 952px) {
+  .projectsTitle {
+    font-size: 16px;
+  }
+  .projectsContent {
+    width: 90%;
+  }
+  .project-grid-container {
+    column-gap: 8px;
+    row-gap: 10px;
+  }
+
+  .project-grid-item {
+    width:  350px;
+    height: 250px;
+  }
+  .iconDiv > img {
+    height: 50px;
+    width: 50px;
+  }
+  .descriptionDiv{
+padding-left: 1px;
+  }
+  .postDescription {
+    max-height: 6.6em;
+    line-height: 1.8em;
+    font-size: 10px;
+  }
+  .postName {
+    font-size: 14px;
+  }
+  .postName {
+    font-size:14px;
+  }
+  .toolItem {
+    margin: 2px;
+  }
+  .toolItem >img{
+    width: 20px;
+  }
+  .itemFooter {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .itemFooterItem {
+    font-size: 10px;
+  }
+  .itemFooterItem>img {
+    width: 8px;
+  }
+  .itemText{
+    font-size: 8px;
+  }
+}
+@media (max-width: 858px) {
+  .projectsTitle {
+    font-size: 16px;
+  }
+  .projectsContent {
+    width: 90%;
+  }
+  .project-grid-container {
+    column-gap: 8px;
+    row-gap: 10px;
+  }
+
+  .project-grid-item {
+    width:  250px;
+    height: 220px;
+  }
+  .iconDiv > img {
+    height: 50px;
+    width: 50px;
+  }
+  .descriptionDiv{
+padding-left: 1px;
+  }
+  .postDescription {
+    max-height: 4.6em;
+    line-height: 1.8em;
+    font-size: 8px;
+  }
+  .postName {
+    font-size: 12px;
+  }
+  .postName {
+    font-size:10px;
+  }
+  .toolItem {
+    margin: 2px;
+  }
+  .toolItem >img{
+    width: 10px;
+  }
+  .itemFooter {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .itemFooterItem {
+    font-size: 5px;
+  }
+  .itemFooterItem>img {
+    width: 8px;
+  }
+  .itemText{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projectsTitle {
+    font-size: 16px;
+  }
+  .projectsContent {
+    width: 90%;
+  }
+  .project-grid-container {
+    column-gap: 8px;
+    row-gap: 10px;
+  }
+
+  .project-grid-item {
+    width:  170px;
+    height: 200px;
+  }
+  .iconDiv > img {
+    height: 50px;
+    width: 50px;
+  }
+  .descriptionDiv{
+padding-left: 1px;
+  }
+  .postDescription {
+    max-height: 4.6em;
+    line-height: 1.8em;
+    font-size: 8px;
+  }
+  .postName {
+    font-size: 12px;
+  }
+  .postName {
+    font-size:10px;
+  }
+  .toolItem {
+    margin: 2px;
+  }
+  .toolItem >img{
+    width: 10px;
+  }
+  .itemFooter {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .itemFooterItem {
+    font-size: 5px;
+  }
+  .itemFooterItem>img {
+    width: 8px;
+  }
+  .itemText{
+    font-size: 8px;
+  }
+
+}
+@media (max-width: 480px) {
+  .projectsTitle {
+    font-size: 16px;
+  }
+  .projectsContent {
+    width: 90%;
+  }
+  .project-grid-container {
+    column-gap: 8px;
+    row-gap: 10px;
+  }
+
+
+  .project-grid-item {
+    width: 170px;
+    height: auto;
+  }
+  .iconDiv > img {
+    height: 50px;
+    width: 50px;
+  }
+  .descriptionDiv{
+    padding-left: 1px;
+      }
+      .postDescription {
+        max-height: 4.6em;
+        line-height: 1.8em;
+        font-size: 8px;
+      }
+      .postName {
+        font-size: 12px;
+      }
+      .postName {
+        font-size:10px;
+      }
+      .toolItem {
+        margin: 2px;
+    
+      }
+      .toolItem >img{
+        width: 10px;
+      }
+      .itemFooter {
+        margin-top: 1px;
+        margin-bottom: 1px;
+      }
+      .itemFooterItem {
+        font-size: 5px;
+      }
+      .itemFooterItem>img {
+        width: 8px;
+      }
+      .itemText{
+        font-size: 8px;
+      }
+}

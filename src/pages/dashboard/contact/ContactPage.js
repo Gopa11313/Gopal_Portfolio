@@ -29,7 +29,7 @@ function ContactPage() {
             <img src={github} alt="github" />
           </dib>
           <div className="contactFooter">
-            <p className="footerText">Copyright@2023 portfolio.</p>
+            <p className="footerText">Copyright@2023 GopalPortfolio.</p>
             <div className="verticalBar"></div>
             <p className="footerText">All rights reserved.</p>
           </div>
@@ -42,7 +42,7 @@ function ContactPage() {
                 <label>Name</label>
                 <input placeholder="Name" />
               </div>
-              <div className="formField" style={{ marginLeft: "10px" }}>
+              <div className="formField formFieldSecond">
                 <label>Email</label>
                 <input placeholder="email" />
               </div>

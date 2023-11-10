@@ -63,7 +63,7 @@ function NavigationComponent() {
           </li>
         </ul>
       </div>
-      {!showModal && <NavPopUp data={true} onClose={closeModal} />}
+      {!showModal && <NavPopUp data={true} onClosen={closeModal} />}
     </nav>
   );
 }

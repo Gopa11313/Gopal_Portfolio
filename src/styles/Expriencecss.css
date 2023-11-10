@@ -13,17 +13,19 @@
   justify-content: center;
   align-items: center;
 }
-.exprienceTitle{
+.exprienceTitle {
   font-family: "Poppins";
   font-size: 22px;
   font-weight: bold;
 }
-.hdOTXE.hdOTXE,.kxYSKo.kxYSKo {
+.hdOTXE.hdOTXE,
+.kxYSKo.kxYSKo {
   color: #393939;
   font-family: "Poppins";
   font-size: 17px;
 }
-.jlcKpA.jlcKpA , .lfpLDj.lfpLDj{
+.jlcKpA.jlcKpA,
+.lfpLDj.lfpLDj {
   background: linear-gradient(to right, #3f40a6, #4c8bf5, #00b8f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,11 +38,109 @@
   color: white;
 }
 
-.bOPcbp:not(.using-icon).active.bOPcbp:not(.using-icon).active, .gyKnXL:not(.using-icon).active {
+.bOPcbp:not(.using-icon).active.bOPcbp:not(.using-icon).active,
+.gyKnXL:not(.using-icon).active {
   background: white;
   border: 3px solid #526b9e;
 }
-.bGOvhX.bGOvhX,.iSpLnb.iSpLnb {
+.bGOvhX.bGOvhX,
+.iSpLnb.iSpLnb {
   font-family: "Poppins";
   font-size: 14px;
+}
+@media (max-width: 952px) {
+  .exprienceTitle {
+    font-size: 16px;
+  }
+  .hdOTXE.hdOTXE,
+  .kxYSKo.kxYSKo {
+    font-size: 11px;
+  }
+  .jlcKpA.jlcKpA,
+  .lfpLDj.lfpLDj {
+    font-size: 10px;
+  }
+
+  .bGOvhX.bGOvhX,
+  .iSpLnb.iSpLnb {
+    font-size: 10px;
+  }
+  .fhstIq .fhstIq {
+    font-size: 10px;
+  }
+  .fhstIq.active .fhstIq.active {
+    font-size: 11px;
+  }
+}
+@media (max-width: 858px) {
+  .exprienceTitle {
+    font-size: 16px;
+  }
+  .hdOTXE.hdOTXE,
+  .kxYSKo.kxYSKo {
+    font-size: 11px;
+  }
+  .jlcKpA.jlcKpA,
+  .lfpLDj.lfpLDj {
+    font-size: 10px;
+  }
+
+  .bGOvhX.bGOvhX,
+  .iSpLnb.iSpLnb {
+    font-size: 10px;
+  }
+  .fhstIq .fhstIq {
+    font-size: 10px;
+  }
+  .fhstIq.active .fhstIq.active {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .exprienceTitle {
+    font-size: 16px;
+  }
+  .hdOTXE.hdOTXE,
+  .kxYSKo.kxYSKo {
+    font-size: 11px;
+  }
+  .jlcKpA.jlcKpA,
+  .lfpLDj.lfpLDj {
+    font-size: 10px;
+  }
+
+  .bGOvhX.bGOvhX,
+  .iSpLnb.iSpLnb {
+    font-size: 10px;
+  }
+  .fhstIq .fhstIq {
+    font-size: 10px;
+  }
+  .fhstIq.active .fhstIq.active {
+    font-size: 11px;
+  }
+}
+@media (max-width: 480px) {
+  .exprienceTitle {
+    font-size: 16px;
+  }
+  .hdOTXE.hdOTXE,
+  .kxYSKo.kxYSKo {
+    font-size: 11px;
+  }
+  .jlcKpA.jlcKpA,
+  .lfpLDj.lfpLDj {
+    font-size: 10px;
+  }
+
+  .bGOvhX.bGOvhX,
+  .iSpLnb.iSpLnb {
+    font-size: 10px;
+  }
+  .fhstIq .fhstIq {
+    font-size: 10px;
+  }
+  .fhstIq.active .fhstIq.active {
+    font-size: 11px;
+  }
 }
