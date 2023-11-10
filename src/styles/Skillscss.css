@@ -1,109 +1,167 @@
-.skillPage{
-    height: auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.skillPage {
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.skillTitle{
-    color: #17377D;
-    font-size: 22px;
-    font-family: 'Poppins';
-    font-weight: 600;
+.skillTitle {
+  color: #17377d;
+  font-size: 22px;
+  font-family: "Poppins";
+  font-weight: 600;
 }
-.SkillContent{
-    width: 80%;
+.SkillContent {
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.span-active{
-    margin-top: 5px;
-    height: 2px;
-    background:    #324F8E;
-
+.span-active {
+  margin-top: 5px;
+  height: 2px;
+  background: #324f8e;
 }
-.span-inActive{
-    margin-top: 5px;
-    height: 2px;
+.span-inActive {
+  margin-top: 5px;
+  height: 2px;
 }
-.tabs{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.tabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.tabItem{
-    display: flex;
-    flex-direction: column;
+.tabItem {
+  display: flex;
+  flex-direction: column;
 }
-.active{
-    color: #324F8E;
-    font-family: 'Poppins';
-    font-size: 20px;
-    border: none;
-    background: none;
+.active {
+  color: #324f8e;
+  font-family: "Poppins";
+  font-size: 20px;
+  border: none;
+  background: none;
 }
-.inActive{
-    font-family: 'Poppins';
-    font-size: 20px;
-    background: none;
-    border: none;
-    color: #565656;
+.inActive {
+  font-family: "Poppins";
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #565656;
 }
-.panel{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-container {
-    display: inline-grid;
-    grid-template-columns: repeat(4, 2fr); 
-column-gap: 60px;
-row-gap: 50px;
-  }
-  
-  .grid-item {
-    border: 2px solid #ABC5FF;
-    border-radius: 10px;
-    padding: 20px;
-    width: 160px;
-    height: 150px;
-    text-align: center;
-    max-width: 200px;
-  }
-  .grid-item img{
-    height: 90px;
-    width: 90px;
-  }
-  .grid-item p{
-    color: #363636;
-    font-family: 'Poppins';
-    font-size: 17px;
-    font-weight: 400;
-  }
-.contentPanel{
-    width: 80%; 
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 2fr);
+  column-gap: 60px;
+  row-gap: 50px;
 }
-.panelItem{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.grid-item {
+  border: 2px solid #abc5ff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 160px;
+  height: 150px;
+  text-align: center;
+  max-width: 200px;
 }
-.toggle-display-button{
-    color: #4A67A9;
-    align-self: flex-end;
-    margin-top: 10px;
-    font-family: 'Poppins';
+.grid-item img {
+  height: 90px;
+  width: 90px;
+}
+.grid-item p {
+  color: #363636;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+}
+.contentPanel {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.panelItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-display-button {
+  color: #4a67a9;
+  align-self: flex-end;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+@media (max-width: 952px) {
+}
+@media (max-width: 858px) {
+}
+@media screen and (max-width: 768px) {
+  .skillTitle {
     font-size: 16px;
-    text-decoration: underline;
+  }
+  .tabItem > button {
+    font-size: 12px;
+  }
+  .grid-container {
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+
+  .grid-item {
+    width: 40px;
+    height: 35px;
+  }
+  .grid-item img {
+    height: 15px;
+    width: 15px;
+  }
+  .grid-item p {
+    font-size: 12px;
+  }
+  .toggle-display-button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .aboutTitle {
+    font-size: 16px;
+  }
+  .tabItem > button {
+    font-size: 10px;
+  }
+  .grid-container {
+    column-gap: 10px;
+    row-gap: 5px;
+  }
+
+  .grid-item {
+    width: 40px;
+    height: 35px;
+  }
+  .grid-item img {
+    height: 15px;
+    width: 15px;
+  }
+  .grid-item p {
+    font-size: 10px;
+  }
+  .toggle-display-button {
+    font-size: 12px;
+  }
 }

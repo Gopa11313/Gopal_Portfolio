@@ -1,5 +1,5 @@
 .aboutPage {
-  height: 70vh;
+  height: auto;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .aboutTexts {
   font-size: 14px;
@@ -42,4 +43,42 @@
   font-family: 'Poppins';
   padding: 10px 15px 10px 15px;
   box-shadow: 5px 5px 7px rgba(47, 62, 92, 0.2);
+}
+@media (max-width: 952px) {
+}
+@media (max-width: 858px) {
+}
+@media screen and (max-width: 768px) {
+ .aboutTitle { 
+    font-size: 16px;
+  }
+  .aboutTexts {
+    font-size: 12px;
+  }
+  .description{
+    font-size: 12px;
+  }
+  .aboutDescription{
+    font-size: 12px;
+}
+.cvButton{
+  font-size: 12px;
+}
+}
+@media (max-width: 480px) {
+  .aboutTitle { 
+    font-size: 16px;
+  }
+  .aboutTexts {
+    font-size: 10px;
+  }
+  .description{
+    font-size: 12px;
+  }
+  .aboutDescription{
+    font-size: 12px;
+}
+.cvButton{
+  font-size: 12px;
+}
 }

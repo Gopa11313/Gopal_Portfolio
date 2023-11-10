@@ -12,7 +12,7 @@ function AboutPage() {
             <span>
               <img src={edit} alt="Edit" />
             </span>
-            Gopal thapa magar
+            Gopal Thapa M.
           </p>
           <p className="aboutTexts">
             Based in Toronto, Canada
