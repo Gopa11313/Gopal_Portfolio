@@ -13,25 +13,34 @@ function NavigationComponent() {
     console.log("close " + showModal);
     setShowModal(!showModal);
   };
+  const scrollToElement = (id) => {
+    console.log("Here");
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <nav>
       <div className="navbar">
         <ul>
-          <a className="nameLogo">Gopal</a>
+          <a className="nameLogo" onClick={scrollToElement("home")}>
+            Gopal
+          </a>
         </ul>
         <ul className="menu">
           <li>
-            <a to="/about">About</a>
+            <a onClick={() => scrollToElement("abouot")}>About</a>
           </li>
           <li>
-            <a to="/skill">Skill</a>
+            <a onClick={() => scrollToElement("skill")}>Skill</a>
           </li>
           <li>
-            <a to="/project">My Project</a>
+            <a onClick={() => scrollToElement("myProjects")}>My Project</a>
           </li>
           <li>
-            <a to="/contact">Contact</a>
+            <a onClick={() => scrollToElement("contact")}>Contact</a>
           </li>
         </ul>
 

@@ -59,7 +59,7 @@
 .descriptionDiv {
   display: flex;
   flex-direction: column;
-align-items: flex-start;
+  align-items: flex-start;
   padding-left: 10px;
 }
 .postName {
@@ -69,61 +69,70 @@ align-items: flex-start;
   font-weight: 600;
   color: #4a68a8;
 }
-.postDescription{
-color: #464646;
-font-family: "Poppins";
-font-size: 14px;
-text-align: left;
+.postDescription {
+  color: #464646;
+  font-family: "Poppins";
+  font-size: 14px;
+  text-align: left;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 7.6em;
+  line-height: 1.8em;
 }
-.toolDiv{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 100%;
+
+.toolDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
 }
-.toolsTechnologies{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
+.toolsTechnologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
-.toolItem{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    margin: 10px;
-    justify-content: flex-start;
-    align-items: center;
+.toolItem {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: flex-start;
+  align-items: center;
 }
-.itemText{
-    color: #4A68A8;
-    font-family: "Poppins";
-    font-size: 12px;
-    margin-left: 10px;
-    font-weight: 500;
+.iconDiv > img {
+  width: 200px;
 }
-.itemFooter{
-    display: flex;
-    flex-direction: row;
-    width: 100%;  
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-between;
+.toolItem > img {
+  width: 40px;
 }
-.itemFooterItem{
+.itemText {
+  color: #4a68a8;
+  font-family: "Poppins";
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.itemFooter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.itemFooterItem {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-
 }
-.itemFooterItem{
+.itemFooterItem {
   color: black;
   font-size: 12px;
   font-family: "Poppins";
-  
 }
 .toggle-display-button {
   color: #4a67a9;

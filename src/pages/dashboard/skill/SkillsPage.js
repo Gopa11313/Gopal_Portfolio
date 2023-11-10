@@ -103,7 +103,7 @@ export default function SkillsPage() {
     </div>
   );
   return (
-    <div className="skillPage">
+    <div className="skillPage" id="skill">
       <p className="skillTitle">My skills</p>
       <div className="SkillContent">
         <div className="tabs">

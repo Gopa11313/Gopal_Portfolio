@@ -4,7 +4,7 @@ import edit from "../../../assests/edit.png";
 import location from "../../../assests/location.png";
 function AboutPage() {
   return (
-    <div className="aboutPage">
+    <div className="aboutPage" id="abouot">
       <p className="aboutTitle">About me</p>
       <div className="aboutContent">
         <div className="aboutContentTop">

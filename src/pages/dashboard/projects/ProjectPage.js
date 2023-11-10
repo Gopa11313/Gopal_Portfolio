@@ -6,6 +6,10 @@ import java_icon from "../../../assests/java_icon.png";
 import swift_icon from "../../../assests/swift_icon.png";
 import github from "../../../assests/github.png";
 import link from "../../../assests/link.png";
+import smartQr from "../../../assests/smartQr.png";
+import qpayMerchant from "../../../assests/qpay_merchant.png";
+import PlanIt from "../../../assests/planIt.png";
+import reactNative from "../../../assests/react_icon.png";
 function ProjectPage() {
   const featuredProject = [
     {
@@ -22,12 +26,12 @@ function ProjectPage() {
       githubUrl: "",
     },
     {
-      logo: qpay_logo,
-      name: "Que pay",
+      logo: smartQr,
+      name: "Smart Qr",
       description:
-        "QPay consumer App allows its users easily make payments for the goods purchased and services rendered. Quick recharge and easy payment of various utility bills and on top of that consumers can also transfer the small value fund to the consumers within QPay network.",
+        "SmartQR is a QR based payment solution for merchants in the interoperable network to facilitate the digital payment and mobile payment that delivers a common QR code specification for retails payment in Nepal. SmartQR facilitates merchants, especially SMEs, in using QR codes to accept payments in a fast secure and reliable digital payment ecosystem integrated with different payment service providers.",
       liveUrl:
-        "https://play.google.com/store/apps/details?id=net.qpaysolutions.QPay&hl=en_CA&gl=US",
+        "https://play.google.com/store/apps/details?id=net.qpaysolutions.smartqr&hl=en&gl=US",
       toolAndTech: [
         { name: "Java", icon: java_icon },
         { name: "Swift", icon: swift_icon },
@@ -35,12 +39,12 @@ function ProjectPage() {
       githubUrl: "",
     },
     {
-      logo: qpay_logo,
-      name: "Que pay",
+      logo: qpayMerchant,
+      name: "Q Pay Merchant",
       description:
-        "QPay consumer App allows its users easily make payments for the goods purchased and services rendered. Quick recharge and easy payment of various utility bills and on top of that consumers can also transfer the small value fund to the consumers within QPay network.",
+        "QPay Merchant App provides unique and powerful tools for merchants to process payments using their mobile phones. It provides an opportunity for supplemental revenue as well as to promote itself within the QPay ecosystem.",
       liveUrl:
-        "https://play.google.com/store/apps/details?id=net.qpaysolutions.QPay&hl=en_CA&gl=US",
+        "https://play.google.com/store/apps/details?id=net.qpaysolutions.QPayMerchant&hl=en_CA&gl=US",
       toolAndTech: [
         { name: "Java", icon: java_icon },
         { name: "Swift", icon: swift_icon },
@@ -48,21 +52,18 @@ function ProjectPage() {
       githubUrl: "",
     },
     {
-      logo: qpay_logo,
-      name: "Que pay",
+      logo: PlanIt,
+      name: "PlanIt",
       description:
         "QPay consumer App allows its users easily make payments for the goods purchased and services rendered. Quick recharge and easy payment of various utility bills and on top of that consumers can also transfer the small value fund to the consumers within QPay network.",
       liveUrl:
         "https://play.google.com/store/apps/details?id=net.qpaysolutions.QPay&hl=en_CA&gl=US",
-      toolAndTech: [
-        { name: "Java", icon: java_icon },
-        { name: "Swift", icon: swift_icon },
-      ],
+      toolAndTech: [{ name: "React Native", icon: reactNative }],
       githubUrl: "",
     },
   ];
   return (
-    <div className="projects">
+    <div className="projects" id="myProjects">
       <div className="projectsContent">
         <p className="projectsTitle">Featured Project</p>
         <div className="gridParent">

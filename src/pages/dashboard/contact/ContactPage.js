@@ -6,7 +6,7 @@ import linkedin from "../../../assests/linkedin.png";
 import github from "../../../assests/github.png";
 function ContactPage() {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <p className="contactTitle">Contact Me</p>
       <div className="contactContent">
         <div className="insideContent first">

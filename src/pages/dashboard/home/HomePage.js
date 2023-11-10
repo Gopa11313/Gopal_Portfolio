@@ -5,7 +5,7 @@ import javaIcon from "../../../assests/java_icon.png";
 import swiftIcon from "../../../assests/swift_icon.png";
 function HomePage() {
   return (
-    <div className="homePage">
+    <div className="homePage" id="home">
       <p className="title">Android Developer | Full Stack Developer</p>
       <p className="name">Gopal Thapa M.</p>
       <p className="description">
